@@ -1,5 +1,5 @@
 def alphabetize(arr)
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   ascii = "A-\\"
-  arr.sort_by{|string| string.tr(ALPHABET, ascii)}
+  arr.sort_by{|string| string.tr(alphabet, ascii)}
 end
